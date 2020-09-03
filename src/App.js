@@ -1,9 +1,21 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
-import HomePage from '../src/pages/homepage/homepage';
+import HomePage from './pages/homepage/homepage';
+import ShopPage from './pages/shopPage/shopPage';
+import Header from './components/header/header'
+
+
 
 function App() {
-  return <div><HomePage/></div>
+  return (
+    <div>
+      <Header/>
+      <Switch>
+        <Route exact path='/' component = {HomePage} />
+        <Route exact path='/shop' component={ShopPage} />
+      </Switch>
+    </div>)
 }
 
 export default App;
