@@ -10,7 +10,7 @@ const config = {
     databaseURL: "https://crwn-db-7c5d2.firebaseio.com",
     projectId: "crwn-db-7c5d2",
     storageBucket: "crwn-db-7c5d2.appspot.com",
-    messagingSenderId: "86205641117",
+    messagingSenderId: "86205641117", 
     appId: "1:86205641117:web:f8269a04a96fda8fda7f74",
     measurementId: "G-82CZ7R6562"
 };
