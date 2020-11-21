@@ -7,7 +7,6 @@ import { ReactComponent as ShoppingIcon } from '../../assets/shopping-bag.svg';
 import { selectCartItemsCount } from '../../redux/cart/cart.selectors';
 
 import './cart-icon.scss';
-import { dispatch } from 'rxjs/internal/observable/range';
 import cartDropdown from '../cart-dropdown/cart-dropdown';
 import CartItem from '../cart-item/cart-item';
 
